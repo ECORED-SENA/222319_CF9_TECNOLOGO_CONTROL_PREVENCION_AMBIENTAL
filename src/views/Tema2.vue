@@ -45,7 +45,7 @@
                 .col.mb-3.mb-sm-0
                   h5 Para contextualizar el tema, puede consultar el video de Corantioquia Oficial que se llama: Seguimiento y Control a Fuentes Fijas, el cual se encuentra en la sección de materiales complementarios.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="('https://www.youtube.com/watch?v=fNBy6k4EKHo&ab_channel=CORANTIOQUIAOFICIAL')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
     separador

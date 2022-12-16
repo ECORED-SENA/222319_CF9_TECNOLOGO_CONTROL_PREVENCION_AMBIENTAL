@@ -103,7 +103,7 @@
             figure
               img(src='@/assets/curso/tema3/10.png', alt='Texto que describa la imagen')
             p.mt-2 <strong>Exotérmica:</strong> en esta reacción química, se libera energía en forma de calor.
-      .py-4.py-md-5(titulo="Criterio energético" :icono="require('@/assets/curso/tema3/f2.svg')")
+      .py-4.py-md-5(titulo="Criterio cinético" :icono="require('@/assets/curso/tema3/f2.svg')")
         .row.justify-content-center
           h3 Criterio cinético
           .col-md-5.mb-4.mb-md-0
@@ -114,7 +114,7 @@
             figure
               img(src='@/assets/curso/tema3/14.png', alt='Texto que describa la imagen')
             p.mt-2 <strong>Lenta:</strong>  en esta reacción química, se puede medir su velocidad de producción.
-      .py-4.py-md-5(titulo="Criterio cinético" :icono="require('@/assets/curso/tema3/f3.svg')")
+      .py-4.py-md-5(titulo="Según la transformación que se produce" :icono="require('@/assets/curso/tema3/f3.svg')")
         .row.justify-content-center
           h3 Según la transformación que se produce
           .col-md-5.mb-4.mb-md-0
@@ -125,7 +125,7 @@
             h5 Ejemplo:
             figure
               img(src='@/assets/curso/tema3/12.png', alt='Texto que describa la imagen')
-      .py-4.py-md-5(titulo="Criterio cinético" :icono="require('@/assets/curso/tema3/f4.svg')")
+      .py-4.py-md-5(titulo="Según la partícula intercambiada" :icono="require('@/assets/curso/tema3/f4.svg')")
         .row.justify-content-center
           h3 Según la partícula intercambiada
           .col-md-5.mb-4.mb-md-0
@@ -368,7 +368,7 @@
                 .col.mb-3.mb-sm-0
                   h5 Para profundizar en su aprendizaje, se invita a revisar el contenido El Mundo de la Ciencia (s. f.), el cual se encuentra ubicado en la sección de referencias.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="('https://sites.google.com/site/elmundodelacienciaensm/reacciones-redox')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download        
     separador

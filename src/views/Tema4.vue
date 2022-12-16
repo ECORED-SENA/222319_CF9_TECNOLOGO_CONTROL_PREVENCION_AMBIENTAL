@@ -99,7 +99,7 @@
     .row
       .col-lg-7
         .cajon.color-acento-contenido.p-4.mb-4
-          p Las fuentes fijas puntuales, mejor conocidas como “chimeneas” o ductos, por donde se expulsan gases contaminantes ( Mp,Sox,Nox, Co,.Cov´s, entre otros) de las industrias que hacen parte del sector productivo que mueve la economía de nuestro país, aportan de manera importante al continuo deterioro de la calidad del aire que se respira, especialmente en la principales ciudades del país. Por esta razón, la normativa asociada a las fuentes fijas es fundamental para el seguimiento y control de las emisiones en Colombia. 
+          p Las fuentes fijas puntuales, mejor conocidas como “chimeneas” o ductos, por donde se expulsan gases contaminantes ( <i>Mp,Sox,Nox, Co,.Cov´s</i>, entre otros) de las industrias que hacen parte del sector productivo que mueve la economía de nuestro país, aportan de manera importante al continuo deterioro de la calidad del aire que se respira, especialmente en la principales ciudades del país. Por esta razón, la normativa asociada a las fuentes fijas es fundamental para el seguimiento y control de las emisiones en Colombia. 
         p A continuación, se menciona la norma asociada relacionada con este tema.
       .col-lg-5
         img(src="@/assets/curso/tema4/4.png")

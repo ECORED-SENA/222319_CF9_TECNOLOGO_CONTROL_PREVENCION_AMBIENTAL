@@ -17,7 +17,7 @@
     TabsA.color-acento-contenido.mb-5
 
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Microgramos/metro cúbico")
-        p <strong>icrogramos/metro cúbico:</strong> empleada en las mediciones y normas para el monitoreo de la calidad del aire o inmisión.
+        p <strong>Microgramos/metro cúbico:</strong> empleada en las mediciones y normas para el monitoreo de la calidad del aire o inmisión.
         p El portal Troposfera define el microgramo como: “… la unidad de masa del Sistema Internacional que equivale a la millonésima parte de un gramo¨. 
         p Se abrevia µg (aunque a veces aparece como ug).
         .row.justify-content-center
@@ -57,7 +57,7 @@
           .col-lg-6
             .row.p-2.colort1
               h4.text-center.mt-2 1	ppm = 1000 ppb
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Partes por billón (ppb)")
+      .tarjeta.color-acento-contenido--borde.p-4(titulo="ppb a microgramos/metro cúbico (µg/m3)")
         h5 ppb a microgramos/metro cúbico (µg/m3):
 
         p Para transformar N ppb de un gas a µg/m3 en determinadas condiciones de presión y temperatura, se realiza de la siguiente forma:
@@ -210,10 +210,7 @@
         .col-md-6
           figure
             img(src='@/assets/curso/tema1/7.svg', alt='Texto que describa la imagen')
-      .row.justify-content-center(titulo="Sistema Técnico de Unidades: derivado del sistema métrico con unidades del anterior. Actualmente, este sistema está en desuso.")
-        .col-md-6
-          figure
-            img(src='@/assets/curso/tema1/8.svg', alt='Texto que describa la imagen')
+
       .row.justify-content-center(titulo="Sistema Técnico de Unidades: derivado del sistema métrico con unidades del anterior. Actualmente, este sistema está en desuso.")
         .col-md-6
           figure
@@ -226,7 +223,7 @@
     .row.mt-3
       .col-lg-6
         .cajon.color-acento-contenido.p-5.mb-4
-          p El <a1>Sistema Internacional de Unidades</a1> (abreviado SI del francés: Le Système International d’Unités), también denominado Sistema Internacional de Medidas, es el nombre que recibe el sistema de unidades que se usa en la mayoría de los países y es la forma actual del Sistema Métrico Decimal.
+          p El <a1>Sistema Internacional de Unidades</a1> (abreviado SI del francés: <i>Le Système International d’Unités</i>), también denominado Sistema Internacional de Medidas, es el nombre que recibe el sistema de unidades que se usa en la mayoría de los países y es la forma actual del Sistema Métrico Decimal.
         p El <a1>SI también es conocido como Sistema Métrico</a1>, especialmente en las naciones en las que aún no se ha implantado para su uso cotidiano. Este fue creado en 1960 por la <a1>Conferencia General de Pesos y Medidas</a1>, que inicialmente definió seis unidades físicas básicas.  En 1971 se añadió la séptima unidad básica, el mol.
       .col-lg-6
         img(src='@/assets/curso/tema1/11.png', alt='Texto que describa la imagen')
@@ -331,8 +328,8 @@
                 .col.mb-3.mb-sm-0
                   h5 Para profundizar en el tema, se invita a revisar la sección de materiales complementarios, donde encontrará el video: Puntaje Nacional Chile (4 abril 2013), denominado “Unidades de concentración” y otros objetos de aprendizaje que son de sumo interés para su aprendizaje.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
-                    span Descargar
+                  a.boton.color-acento-botones.texto-blanco(:href="('https://www.youtube.com/watch?v=NGUytYmKAro&ab_channel=PuntajeNacionalChile')" target="_blank")
+                    span Ver video
                     i.fas.fa-file-download
         p Como parte de los conceptos que debe aprender, se invita a continuar revisando el siguiente tema.
     separador
@@ -350,8 +347,8 @@
                 .col.mb-3.mb-sm-0
                   h5 Para profundizar en el tema, se le invita a revisar el video que se encuentra en la sección de materiales de apoyo denominado ¨Experimento densidad del aire¨.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
-                    span Descargar
+                  a.boton.color-acento-botones.texto-blanco(:href="('https://www.youtube.com/watch?v=Blnqgwpqxas&ab_channel=MuseoITM')" target="_blank")
+                    span Ver video
                     i.fas.fa-file-download
     p Por otra parte, las más importantes leyes físicas que relaciona la historia sobre el aire atmosférico fueron investigadas por los más importantes científicos que estudiaron las teorías que rigen las principales leyes fisicoquímicas del aire.
     p Para explicar sus componentes, se debe dar un viaje al pasado para conocer los estudios de los principales protagonistas, los cuales se mencionan en el siguiente objeto de aprendizaje:
@@ -601,7 +598,7 @@
             li.mb-0 
               i.fas.fa-check
               | El volumen que ocupa, V.
-          p Como se ha observado, son cuatro (4) las propiedades que definen el estado o las condiciones en las que se encuentra una sustancia en estado gaseoso:
+          p Estas propiedades pueden variar todas simultáneamente o se pueden mantener constantes una o dos de ellas, a fin de cambiar otras
           p A continuación, se tocará el tema ¨Densidad y masa molar de un gas ideal¨:
     .row.mt-4
       .col-lg-6
@@ -644,8 +641,8 @@
           .col-md-5.mb-4.mb-md-0
             h5.mb-1 Paso 3
             h5 Información del proceso
-            p a información sobre los procesos que generan emisiones debe incluir un diagrama de flujo de cada uno de los procesos que están siendo analizados, así como su descripción. Se deben incluir los equipos de control de emisiones al aire que se utilizan en el proceso. 
-            p Adicionalmente, se deben incluir variables del proceso, como: materias primas e insumos utilizados, la máxima tasa de operación de los equipos, las tasas máximas, normal y promedio de operación de los equipos, la caracterización y tasa de alimentación del combustible que utiliza y las horas de operación diarias, semanales y mensuales. En caso tal que el proceso se realice por lotes o cochadas (tipo batch), es necesario suministrar información sobre la duración y el número de lotes por día, por semana o por mes.
+            p La información sobre los procesos que generan emisiones debe incluir un diagrama de flujo de cada uno de los procesos que están siendo analizados, así como su descripción. Se deben incluir los equipos de control de emisiones al aire que se utilizan en el proceso. 
+            p Adicionalmente, se deben incluir variables del proceso, como: materias primas e insumos utilizados, la máxima tasa de operación de los equipos, las tasas máximas, normal y promedio de operación de los equipos, la caracterización y tasa de alimentación del combustible que utiliza y las horas de operación diarias, semanales y mensuales. En caso tal que el proceso se realice por lotes o cochadas (tipo <i>batch</i>), es necesario suministrar información sobre la duración y el número de lotes por día, por semana o por mes.
           .col-md-1
           .col-md-6
             figure
@@ -695,7 +692,7 @@
                 .col.mb-3.mb-sm-0
                   h5 Para contextualizar el tema, puede consultar el siguiente recurso audiovisual que se encuentra en la sección de contenidos complementarios en formato de video, denominado Evaluación de impacto ambiental - diagramas de proceso. 
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="('https://www.youtube.com/watch?v=yqi372crXWY&ab_channel=WillyFernandoOchoaMoreno')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
         p En conclusión, se puede observar que todo proceso productivo puede generar emisiones a la atmósfera, por lo cual es necesario hacer un análisis completo y detallado de estas, con el fin de reducir el impacto en el medio ambiente y en la calidad de vida del ser humano. A continuación, se invita a continuar su aprendizaje sobre el tema.
